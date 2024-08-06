@@ -1,5 +1,5 @@
-# Input a string from the user
-input_string = input("Enter a string: ").strip()
+# Write a Python program to find the first appearance of the substring 'not' and 'poor' from a given string, if 'not' follows the 'poor', replace the whole 'not'...'poor' substring with 'good'. Return the resulting string.
+input_string = input("Enter string: ")
 
 not_index = input_string.find('not')
 poor_index = input_string.find('poor')
