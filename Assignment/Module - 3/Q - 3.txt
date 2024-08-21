@@ -1,0 +1,12 @@
+Differentiate between append () and extend () methods? 
+--> append ()
+-> adds a single element at the end of the list.
+-> Accept a single element as an argument.
+-> Syntax : list_name.append(element)
+-> Modifies the original list in place.
+
+--> extend ()
+-> add multiple elements (from an iterable)  to the end of the list.
+-> Accept an iterable (like a list, tuple, or string) as an argument. 
+-> Syntax : list_name.extend(iterable)
+-> Modifies the original list in place.
