@@ -78,25 +78,26 @@ def log_transaction(action, customer_id, amount=None):
         log_file.write(f"Action: {action}, Customer ID: {customer_id}, Amount: {amount}\n")
 
 def display_menu():
-    print("1. Banker")
-    print("2. Customer")
-    print("3. Exit")
+    print("                    Operations Menu")
+    print("                    1. Banker")
+    print("                    2. Customer")
+    print("                    3. Exit")
 
 def display_banker_menu():
-    print("1. Add Customer")
-    print("2. View Customer")
-    print("3. Search Customer")
-    print("4. View All Customers")
-    print("5. Total Amounts")
-    print("6. Back to Main Menu")
+    print("Welcome to Banker's App")
+    print("                    1. Add Customer")
+    print("                    2. View Customer")
+    print("                    3. Search Customer")
+    print("                    4. View All Customers")
+    print("                    5. Total Amounts")
+    print("                    6. Back to Main Menu")
 
 def display_customer_menu():
-    print("1. Deposit")
-    print("2. Withdraw")
-    print("3. View Balance")
-    print("4. Back to Main Menu")
-
-# Main program execution
+    print("Welcome to Customer's App")
+    print("                    1. Deposit")
+    print("                    2. Withdraw")
+    print("                    3. View Balance")
+    print("                    4. Back to Main Menu")
 
 while True:
     display_menu()
