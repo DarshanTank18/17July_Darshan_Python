@@ -1,3 +1,5 @@
+# Bank Management System
+
 customers = {}
 
 def add_customer():
