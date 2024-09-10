@@ -1,5 +1,8 @@
 Action: add_customer, Customer ID: 123456, Amount: None
-Action: add_customer, Customer ID: 1, Amount: None
-Action: add_customer, Customer ID: 1, Amount: None
-Action: add_customer, Customer ID: 1, Amount: None
-Action: add_customer, Customer ID: 1, Amount: None
+Action: view_customer, Customer ID: 123456, Amount: None
+Action: search_customer, Customer ID: darshan, Amount: None
+Action: view_all_customers, Customer ID: , Amount: None
+Action: total_amounts, Customer ID: , Amount: None
+Action: deposit, Customer ID: 123456, Amount: 52000.0
+Action: withdraw, Customer ID: 123456, Amount: 2000.0
+Action: view_balance, Customer ID: 123456, Amount: None
