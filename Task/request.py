@@ -10,4 +10,4 @@ data=req.json()
 
 for i in data:
     print(f"Country Name:{i['name']["official"]}")
-    print(f"Region:{i['region']}")
+    print(f"Region:{i['region']}\n")

@@ -1,0 +1,5 @@
+Action: add_customer, Customer ID: 123456, Amount: None
+Action: add_customer, Customer ID: 1, Amount: None
+Action: add_customer, Customer ID: 1, Amount: None
+Action: add_customer, Customer ID: 1, Amount: None
+Action: add_customer, Customer ID: 1, Amount: None
