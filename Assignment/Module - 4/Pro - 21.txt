@@ -1,0 +1,3 @@
+What are oops concepts? Is multiple inheritance supported in java.
+
+--> class object inheritance single multiple multilevel encapsulation polymorphism mrthod overloading method overriding access specifire public private

@@ -1,0 +1,8 @@
+Explain Exception handling?
+
+--> Exception handling :- Errors interrupt the flow of the program at the point where they appear, so any further code stops executing.
+
+What is an Error in Python?
+
+--> An error is an issue in a program that prevents the program from completing its task.
+

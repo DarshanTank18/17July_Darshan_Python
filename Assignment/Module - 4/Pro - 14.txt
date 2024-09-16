@@ -1,0 +1,7 @@
+How many except statements can a try-except block have?
+
+--> You can have multiple try blocks in a program but only one except statement with each try block.
+
+Name Some built-in exception classes:
+
+--> ZeroDivisionError, ValueError, TypeError, NameError, KeyError, IndexError, etc...
