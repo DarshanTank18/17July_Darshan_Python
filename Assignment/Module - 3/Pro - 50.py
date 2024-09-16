@@ -1,6 +1,6 @@
 # Write a Python function to check whether a number is perfect or not.
 
-A=int(input("Enter Any Number to Find Perfect OR Not: "))
+A=int(input("Enter Any Number : "))
 
 X=0
 

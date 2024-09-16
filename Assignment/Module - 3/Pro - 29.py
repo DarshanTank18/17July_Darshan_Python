@@ -1,6 +1,6 @@
 # Write a Python program to unzip a list of tuples into individual lists. 
 
-A = [("d","a","r","s","h","a","n"),(1,2,3,4,5,6),("Hello","Rajkot")]
+A = [("d","a","r","s","h","a","n"),(1,2,3,4,5,6)]
 
 count = 1
 for i in A:

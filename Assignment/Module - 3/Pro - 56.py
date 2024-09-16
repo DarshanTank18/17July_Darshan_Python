@@ -2,6 +2,6 @@
 
 import random
 
-random.seed(3)
+random.seed(2)
 
 print(random.randint(1, 999999))

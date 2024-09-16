@@ -1,6 +1,4 @@
 # How can you pick a random item from a list or tuple?
-
-
 import random
 
 A=["Rajkot","Diu","Gonal","Bhavngar","Kachh"]
