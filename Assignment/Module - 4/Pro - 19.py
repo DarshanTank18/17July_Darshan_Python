@@ -1,7 +1,7 @@
 # How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets.
 
 a=10
-b='20'
+b='Darshan'
 
 try:
     if a>b:
