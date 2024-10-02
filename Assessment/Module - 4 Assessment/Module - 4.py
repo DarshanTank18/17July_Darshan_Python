@@ -1,7 +1,7 @@
 from pytubefix import YouTube
 import pymysql
 
-# Database connection
+# Database connect
 try:
     mysql = pymysql.connect(host="localhost", user="root", password="", database="yt_download")
     print("Database connected successfully...")
@@ -84,16 +84,23 @@ class UserLogin:
         l_name = input("Enter your name: ")
         l_password = input("Enter your password: ")
 
-        query = "SELECT id, r_password FROM yt_register WHERE r_name = %s"
-        cr.execute(query, (l_name,))
-        result = cr.fetchone()
+        insert_data = "SELECT id, r_name, r_password FROM yt_register WHERE r_name = %s AND r_password = %s"
+        try:
+            cr.execute(insert_data, (l_name, l_password))
+            result = cr.fetchone()
 
-        if result and result[1] == l_password:
-            print("Login successful!")
-            user_id = result[0]
-            main(user_id)
-        else:
-            print("Name or password does not match.")
+            if result:
+                self.user_id = result[0]
+                self.r_name = result[1]
+                self.r_password = result[2]
+
+                print("Login successful!")
+                main(self.user_id)
+            else:
+                print("Name or password does not match.")
+    
+        except Exception as e:
+            print(e)
 
 def login_main():
     user = UserLogin()
